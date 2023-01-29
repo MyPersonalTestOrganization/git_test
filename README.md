@@ -1,4 +1,3 @@
 # git_test
-test org repo
-DataProcessor
-# test2
+Simple DataProcessor for Comagic
+# git_test
