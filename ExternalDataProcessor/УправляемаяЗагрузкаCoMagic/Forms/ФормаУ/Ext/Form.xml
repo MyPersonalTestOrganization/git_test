@@ -15,29 +15,6 @@
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
-		<InputField name="ПериодНачало" id="1">
-			<DataPath>Объект.ПериодНачало</DataPath>
-			<ContextMenu name="ПериодНачалоКонтекстноеМеню" id="2"/>
-			<ExtendedTooltip name="ПериодНачалоРасширеннаяПодсказка" id="16"/>
-		</InputField>
-		<InputField name="ПериодОкончание" id="3">
-			<DataPath>Объект.ПериодОкончание</DataPath>
-			<ContextMenu name="ПериодОкончаниеКонтекстноеМеню" id="4"/>
-			<ExtendedTooltip name="ПериодОкончаниеРасширеннаяПодсказка" id="17"/>
-		</InputField>
-		<InputField name="Сайт" id="5">
-			<DataPath>Объект.Сайт</DataPath>
-			<Visible>false</Visible>
-			<ContextMenu name="СайтКонтекстноеМеню" id="6"/>
-			<ExtendedTooltip name="СайтРасширеннаяПодсказка" id="18"/>
-		</InputField>
-		<CheckBoxField name="ЗагрузкаПоДням" id="31">
-			<DataPath>ЗагрузкаПоДням</DataPath>
-			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>CheckBox</CheckBoxType>
-			<ContextMenu name="ЗагрузкаПоДнямКонтекстноеМеню" id="32"/>
-			<ExtendedTooltip name="ЗагрузкаПоДнямРасширеннаяПодсказка" id="33"/>
-		</CheckBoxField>
 		<Table name="Сайты" id="8">
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
@@ -90,6 +67,29 @@
 				</InputField>
 			</ChildItems>
 		</Table>
+		<InputField name="ПериодНачало" id="1">
+			<DataPath>Объект.ПериодНачало</DataPath>
+			<ContextMenu name="ПериодНачалоКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ПериодНачалоРасширеннаяПодсказка" id="16"/>
+		</InputField>
+		<InputField name="ПериодОкончание" id="3">
+			<DataPath>Объект.ПериодОкончание</DataPath>
+			<ContextMenu name="ПериодОкончаниеКонтекстноеМеню" id="4"/>
+			<ExtendedTooltip name="ПериодОкончаниеРасширеннаяПодсказка" id="17"/>
+		</InputField>
+		<InputField name="Сайт" id="5">
+			<DataPath>Объект.Сайт</DataPath>
+			<Visible>false</Visible>
+			<ContextMenu name="СайтКонтекстноеМеню" id="6"/>
+			<ExtendedTooltip name="СайтРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<CheckBoxField name="ЗагрузкаПоДням" id="31">
+			<DataPath>ЗагрузкаПоДням</DataPath>
+			<TitleLocation>Right</TitleLocation>
+			<CheckBoxType>CheckBox</CheckBoxType>
+			<ContextMenu name="ЗагрузкаПоДнямКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="ЗагрузкаПоДнямРасширеннаяПодсказка" id="33"/>
+		</CheckBoxField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
